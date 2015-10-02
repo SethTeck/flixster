@@ -23,6 +23,7 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
 	margin: 0;
+  padding: 0;
 }
 
 .frosty {
@@ -49,4 +50,33 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
 	background: url('white_carbonfiber.png');
 	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.alert-info {
+	margin: 0;
+  text-align: center;
+}
+
+.alert-danger {
+	margin: 0;
+  text-align: center;
+}
+
+.box {
+  -moz-box-shadow: 1px 1px 2px #8A8A8A;
+  -webkit-box-shadow: 1px 1px 2px #8A8A8A;
+  box-shadow: 1px 1px 2px #8A8A8A;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.box h2, .box h1 {
+  margin:10px;
+}
+
+.clr {
+  clear:both;
 }
